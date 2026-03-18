@@ -1,0 +1,17 @@
+# Compiled files (Maven)
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+.out/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment
+.env
