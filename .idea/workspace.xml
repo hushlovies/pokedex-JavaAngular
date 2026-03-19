@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48e3ded6-659e-4a50-996e-ee5cefc91677" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/kairacanaria/pokedex_backend/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/kairacanaria/pokedex_backend/ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="frontend" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hushlovies"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hushlovies/pokedex-JavaAngular.git",
+    "accountId": "0eb7f4cd-1f60-4fe5-ac4e-60772ba6e5e9"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3B5dWo7PY0q87GDhtZ7nQNdBZ06" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "backend",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/canariaka/Java/java-angular/pokedex-JavaAngular/backend"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48e3ded6-659e-4a50-996e-ee5cefc91677" name="Changes" comment="" />
+      <created>1773782898941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773782898941</updated>
+    </task>
+    <servers />
+  </component>
+</project>

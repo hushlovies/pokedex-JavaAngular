@@ -282,6 +282,18 @@
           </a>
         }
       </div>
+<!--      testing api here-->
+      <div>
+        <h1>{{ title() }}</h1>
+        <input [(ngModel)]="pokemonName" (keyup.enter)="fetchPokemon()" placeholder="pikachu">
+        <button (click)="fetchPokemon()" [disabled]="!pokemonName()">Search</button>
+
+        <div *ngIf="pokemon()" class="pokemon-card">
+          <h2>{{ pokemon()?.name | titlecase }}</h2>
+          <img [src]="pokemon()?.sprites?.front_default" [alt]="pokemon()?.name">
+          <p>Weight: {{ pokemon()?.weight }}</p>
+        </div>
+      </div>
       <div class="social-links">
         <a
           href="https://github.com/angular/angular"

@@ -57,3 +57,32 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+---
+package com.kairacanaria.pokedex_backend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@SpringBootApplication
+@RestController
+@RequestMapping("/api/pokemon")
+public class Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+
+    @GetMapping("/{name}")
+    public String getPokemon(@PathVariable String name) {
+        String url = "https://pokeapi.co/api/v2/pokemon/" + name.toLowerCase();
+        return new RestTemplate().getForObject(url, String.class);
+    }
+}
+
+
